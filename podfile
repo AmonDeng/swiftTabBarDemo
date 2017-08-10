@@ -1,0 +1,12 @@
+platform :ios, ‘9.0’
+target 'DMSwitTabbarController' do
+
+
+  pod 'ESTabBarController-swift'
+  pod 'pop'
+ 
+  use_frameworks!
+
+
+end
+

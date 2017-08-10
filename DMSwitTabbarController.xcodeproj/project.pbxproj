@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F432D2A1F3BFB630075C34D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432D291F3BFB630075C34D /* AppDelegate.swift */; };
+		3F432D2C1F3BFB630075C34D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432D2B1F3BFB630075C34D /* ViewController.swift */; };
+		3F432D2F1F3BFB630075C34D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F432D2D1F3BFB630075C34D /* Main.storyboard */; };
+		3F432D311F3BFB630075C34D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F432D301F3BFB630075C34D /* Assets.xcassets */; };
+		3F432D341F3BFB630075C34D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F432D321F3BFB630075C34D /* LaunchScreen.storyboard */; };
+		3F432D3F1F3BFB630075C34D /* DMSwitTabbarControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432D3E1F3BFB630075C34D /* DMSwitTabbarControllerTests.swift */; };
+		3F432D4A1F3BFB630075C34D /* DMSwitTabbarControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432D491F3BFB630075C34D /* DMSwitTabbarControllerUITests.swift */; };
+		3F432D581F3BFF7B0075C34D /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432D571F3BFF7B0075C34D /* testViewController.swift */; };
+		3F432D6B1F3C13050075C34D /* ESTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432D641F3C13050075C34D /* ESTabBar.swift */; };
+		3F432D6C1F3C13050075C34D /* ESTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432D651F3C13050075C34D /* ESTabBarController.swift */; };
+		3F432D6D1F3C13050075C34D /* ESTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432D661F3C13050075C34D /* ESTabBarItem.swift */; };
+		3F432D6E1F3C13050075C34D /* ESTabBarItemBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432D671F3C13050075C34D /* ESTabBarItemBadgeView.swift */; };
+		3F432D6F1F3C13050075C34D /* ESTabBarItemContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432D681F3C13050075C34D /* ESTabBarItemContainer.swift */; };
+		3F432D701F3C13050075C34D /* ESTabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432D691F3C13050075C34D /* ESTabBarItemContentView.swift */; };
+		3F432D711F3C13050075C34D /* ESTabBarItemMoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432D6A1F3C13050075C34D /* ESTabBarItemMoreContentView.swift */; };
+		3F432D7A1F3C130A0075C34D /* ExampleAnimateTipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432D731F3C130A0075C34D /* ExampleAnimateTipsContentView.swift */; };
+		3F432D7B1F3C130A0075C34D /* ExampleBackgroundContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432D741F3C130A0075C34D /* ExampleBackgroundContentView.swift */; };
+		3F432D7C1F3C130A0075C34D /* ExampleBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432D751F3C130A0075C34D /* ExampleBasicContentView.swift */; };
+		3F432D7D1F3C130A0075C34D /* ExampleBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432D761F3C130A0075C34D /* ExampleBouncesContentView.swift */; };
+		3F432D7E1F3C130A0075C34D /* ExampleHighlightableContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432D771F3C130A0075C34D /* ExampleHighlightableContentView.swift */; };
+		3F432D7F1F3C130A0075C34D /* ExampleIrregularityContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432D781F3C130A0075C34D /* ExampleIrregularityContentView.swift */; };
+		3F432D801F3C130A0075C34D /* ExampleTipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432D791F3C130A0075C34D /* ExampleTipsContentView.swift */; };
+		3F432D821F3C13450075C34D /* ExampleNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F432D811F3C13450075C34D /* ExampleNavigationController.swift */; };
+		40F0C162245CCB504AF3EC43 /* Pods_DMSwitTabbarController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E71CC9D6C0ECDE13E2A8B5 /* Pods_DMSwitTabbarController.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F432D3B1F3BFB630075C34D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F432D1E1F3BFB630075C34D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F432D251F3BFB630075C34D;
+			remoteInfo = DMSwitTabbarController;
+		};
+		3F432D461F3BFB630075C34D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F432D1E1F3BFB630075C34D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F432D251F3BFB630075C34D;
+			remoteInfo = DMSwitTabbarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F432D261F3BFB630075C34D /* DMSwitTabbarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMSwitTabbarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F432D291F3BFB630075C34D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F432D2B1F3BFB630075C34D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F432D2E1F3BFB630075C34D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F432D301F3BFB630075C34D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F432D331F3BFB630075C34D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F432D351F3BFB630075C34D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F432D3A1F3BFB630075C34D /* DMSwitTabbarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMSwitTabbarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F432D3E1F3BFB630075C34D /* DMSwitTabbarControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMSwitTabbarControllerTests.swift; sourceTree = "<group>"; };
+		3F432D401F3BFB630075C34D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F432D451F3BFB630075C34D /* DMSwitTabbarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMSwitTabbarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F432D491F3BFB630075C34D /* DMSwitTabbarControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMSwitTabbarControllerUITests.swift; sourceTree = "<group>"; };
+		3F432D4B1F3BFB630075C34D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F432D571F3BFF7B0075C34D /* testViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		3F432D641F3C13050075C34D /* ESTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBar.swift; sourceTree = "<group>"; };
+		3F432D651F3C13050075C34D /* ESTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarController.swift; sourceTree = "<group>"; };
+		3F432D661F3C13050075C34D /* ESTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItem.swift; sourceTree = "<group>"; };
+		3F432D671F3C13050075C34D /* ESTabBarItemBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemBadgeView.swift; sourceTree = "<group>"; };
+		3F432D681F3C13050075C34D /* ESTabBarItemContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemContainer.swift; sourceTree = "<group>"; };
+		3F432D691F3C13050075C34D /* ESTabBarItemContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemContentView.swift; sourceTree = "<group>"; };
+		3F432D6A1F3C13050075C34D /* ESTabBarItemMoreContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemMoreContentView.swift; sourceTree = "<group>"; };
+		3F432D731F3C130A0075C34D /* ExampleAnimateTipsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleAnimateTipsContentView.swift; sourceTree = "<group>"; };
+		3F432D741F3C130A0075C34D /* ExampleBackgroundContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBackgroundContentView.swift; sourceTree = "<group>"; };
+		3F432D751F3C130A0075C34D /* ExampleBasicContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBasicContentView.swift; sourceTree = "<group>"; };
+		3F432D761F3C130A0075C34D /* ExampleBouncesContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBouncesContentView.swift; sourceTree = "<group>"; };
+		3F432D771F3C130A0075C34D /* ExampleHighlightableContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleHighlightableContentView.swift; sourceTree = "<group>"; };
+		3F432D781F3C130A0075C34D /* ExampleIrregularityContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleIrregularityContentView.swift; sourceTree = "<group>"; };
+		3F432D791F3C130A0075C34D /* ExampleTipsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTipsContentView.swift; sourceTree = "<group>"; };
+		3F432D811F3C13450075C34D /* ExampleNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleNavigationController.swift; sourceTree = "<group>"; };
+		48E71CC9D6C0ECDE13E2A8B5 /* Pods_DMSwitTabbarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMSwitTabbarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A416FA655F874358990F2E /* Pods-DMSwitTabbarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMSwitTabbarController.release.xcconfig"; path = "Pods/Target Support Files/Pods-DMSwitTabbarController/Pods-DMSwitTabbarController.release.xcconfig"; sourceTree = "<group>"; };
+		D24A1E1BAAC87AB266A18104 /* Pods-DMSwitTabbarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMSwitTabbarController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMSwitTabbarController/Pods-DMSwitTabbarController.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F432D231F3BFB630075C34D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F0C162245CCB504AF3EC43 /* Pods_DMSwitTabbarController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F432D371F3BFB630075C34D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F432D421F3BFB630075C34D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F432D1D1F3BFB630075C34D = {
+			isa = PBXGroup;
+			children = (
+				3F432D281F3BFB630075C34D /* DMSwitTabbarController */,
+				3F432D3D1F3BFB630075C34D /* DMSwitTabbarControllerTests */,
+				3F432D481F3BFB630075C34D /* DMSwitTabbarControllerUITests */,
+				3F432D271F3BFB630075C34D /* Products */,
+				A8310182A28F4C66E3416F01 /* Pods */,
+				A7EA0D2F1BC8C3D65F0EA36B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F432D271F3BFB630075C34D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F432D261F3BFB630075C34D /* DMSwitTabbarController.app */,
+				3F432D3A1F3BFB630075C34D /* DMSwitTabbarControllerTests.xctest */,
+				3F432D451F3BFB630075C34D /* DMSwitTabbarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F432D281F3BFB630075C34D /* DMSwitTabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				3F432D721F3C130A0075C34D /* Content */,
+				3F432D631F3C13050075C34D /* Sources */,
+				3F432D291F3BFB630075C34D /* AppDelegate.swift */,
+				3F432D811F3C13450075C34D /* ExampleNavigationController.swift */,
+				3F432D2B1F3BFB630075C34D /* ViewController.swift */,
+				3F432D571F3BFF7B0075C34D /* testViewController.swift */,
+				3F432D2D1F3BFB630075C34D /* Main.storyboard */,
+				3F432D301F3BFB630075C34D /* Assets.xcassets */,
+				3F432D321F3BFB630075C34D /* LaunchScreen.storyboard */,
+				3F432D351F3BFB630075C34D /* Info.plist */,
+			);
+			path = DMSwitTabbarController;
+			sourceTree = "<group>";
+		};
+		3F432D3D1F3BFB630075C34D /* DMSwitTabbarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F432D3E1F3BFB630075C34D /* DMSwitTabbarControllerTests.swift */,
+				3F432D401F3BFB630075C34D /* Info.plist */,
+			);
+			path = DMSwitTabbarControllerTests;
+			sourceTree = "<group>";
+		};
+		3F432D481F3BFB630075C34D /* DMSwitTabbarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F432D491F3BFB630075C34D /* DMSwitTabbarControllerUITests.swift */,
+				3F432D4B1F3BFB630075C34D /* Info.plist */,
+			);
+			path = DMSwitTabbarControllerUITests;
+			sourceTree = "<group>";
+		};
+		3F432D631F3C13050075C34D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3F432D641F3C13050075C34D /* ESTabBar.swift */,
+				3F432D651F3C13050075C34D /* ESTabBarController.swift */,
+				3F432D661F3C13050075C34D /* ESTabBarItem.swift */,
+				3F432D671F3C13050075C34D /* ESTabBarItemBadgeView.swift */,
+				3F432D681F3C13050075C34D /* ESTabBarItemContainer.swift */,
+				3F432D691F3C13050075C34D /* ESTabBarItemContentView.swift */,
+				3F432D6A1F3C13050075C34D /* ESTabBarItemMoreContentView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		3F432D721F3C130A0075C34D /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F432D731F3C130A0075C34D /* ExampleAnimateTipsContentView.swift */,
+				3F432D741F3C130A0075C34D /* ExampleBackgroundContentView.swift */,
+				3F432D751F3C130A0075C34D /* ExampleBasicContentView.swift */,
+				3F432D761F3C130A0075C34D /* ExampleBouncesContentView.swift */,
+				3F432D771F3C130A0075C34D /* ExampleHighlightableContentView.swift */,
+				3F432D781F3C130A0075C34D /* ExampleIrregularityContentView.swift */,
+				3F432D791F3C130A0075C34D /* ExampleTipsContentView.swift */,
+			);
+			name = Content;
+			path = Sources/Content;
+			sourceTree = "<group>";
+		};
+		A7EA0D2F1BC8C3D65F0EA36B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48E71CC9D6C0ECDE13E2A8B5 /* Pods_DMSwitTabbarController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8310182A28F4C66E3416F01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D24A1E1BAAC87AB266A18104 /* Pods-DMSwitTabbarController.debug.xcconfig */,
+				B5A416FA655F874358990F2E /* Pods-DMSwitTabbarController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F432D251F3BFB630075C34D /* DMSwitTabbarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F432D4E1F3BFB630075C34D /* Build configuration list for PBXNativeTarget "DMSwitTabbarController" */;
+			buildPhases = (
+				CBE4325CBADD6D48B388787D /* [CP] Check Pods Manifest.lock */,
+				3F432D221F3BFB630075C34D /* Sources */,
+				3F432D231F3BFB630075C34D /* Frameworks */,
+				3F432D241F3BFB630075C34D /* Resources */,
+				F0AC89504BF06A64FBB19484 /* [CP] Embed Pods Frameworks */,
+				6F76C3C6045A42BBC57E2D4E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMSwitTabbarController;
+			productName = DMSwitTabbarController;
+			productReference = 3F432D261F3BFB630075C34D /* DMSwitTabbarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F432D391F3BFB630075C34D /* DMSwitTabbarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F432D511F3BFB630075C34D /* Build configuration list for PBXNativeTarget "DMSwitTabbarControllerTests" */;
+			buildPhases = (
+				3F432D361F3BFB630075C34D /* Sources */,
+				3F432D371F3BFB630075C34D /* Frameworks */,
+				3F432D381F3BFB630075C34D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F432D3C1F3BFB630075C34D /* PBXTargetDependency */,
+			);
+			name = DMSwitTabbarControllerTests;
+			productName = DMSwitTabbarControllerTests;
+			productReference = 3F432D3A1F3BFB630075C34D /* DMSwitTabbarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F432D441F3BFB630075C34D /* DMSwitTabbarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F432D541F3BFB630075C34D /* Build configuration list for PBXNativeTarget "DMSwitTabbarControllerUITests" */;
+			buildPhases = (
+				3F432D411F3BFB630075C34D /* Sources */,
+				3F432D421F3BFB630075C34D /* Frameworks */,
+				3F432D431F3BFB630075C34D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F432D471F3BFB630075C34D /* PBXTargetDependency */,
+			);
+			name = DMSwitTabbarControllerUITests;
+			productName = DMSwitTabbarControllerUITests;
+			productReference = 3F432D451F3BFB630075C34D /* DMSwitTabbarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F432D1E1F3BFB630075C34D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Amon Deng";
+				TargetAttributes = {
+					3F432D251F3BFB630075C34D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					3F432D391F3BFB630075C34D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F432D251F3BFB630075C34D;
+					};
+					3F432D441F3BFB630075C34D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F432D251F3BFB630075C34D;
+					};
+				};
+			};
+			buildConfigurationList = 3F432D211F3BFB630075C34D /* Build configuration list for PBXProject "DMSwitTabbarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F432D1D1F3BFB630075C34D;
+			productRefGroup = 3F432D271F3BFB630075C34D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F432D251F3BFB630075C34D /* DMSwitTabbarController */,
+				3F432D391F3BFB630075C34D /* DMSwitTabbarControllerTests */,
+				3F432D441F3BFB630075C34D /* DMSwitTabbarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F432D241F3BFB630075C34D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F432D341F3BFB630075C34D /* LaunchScreen.storyboard in Resources */,
+				3F432D311F3BFB630075C34D /* Assets.xcassets in Resources */,
+				3F432D2F1F3BFB630075C34D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F432D381F3BFB630075C34D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F432D431F3BFB630075C34D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F76C3C6045A42BBC57E2D4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DMSwitTabbarController/Pods-DMSwitTabbarController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBE4325CBADD6D48B388787D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0AC89504BF06A64FBB19484 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DMSwitTabbarController/Pods-DMSwitTabbarController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F432D221F3BFB630075C34D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F432D711F3C13050075C34D /* ESTabBarItemMoreContentView.swift in Sources */,
+				3F432D581F3BFF7B0075C34D /* testViewController.swift in Sources */,
+				3F432D801F3C130A0075C34D /* ExampleTipsContentView.swift in Sources */,
+				3F432D6B1F3C13050075C34D /* ESTabBar.swift in Sources */,
+				3F432D7D1F3C130A0075C34D /* ExampleBouncesContentView.swift in Sources */,
+				3F432D7F1F3C130A0075C34D /* ExampleIrregularityContentView.swift in Sources */,
+				3F432D6C1F3C13050075C34D /* ESTabBarController.swift in Sources */,
+				3F432D2C1F3BFB630075C34D /* ViewController.swift in Sources */,
+				3F432D6F1F3C13050075C34D /* ESTabBarItemContainer.swift in Sources */,
+				3F432D6E1F3C13050075C34D /* ESTabBarItemBadgeView.swift in Sources */,
+				3F432D7A1F3C130A0075C34D /* ExampleAnimateTipsContentView.swift in Sources */,
+				3F432D6D1F3C13050075C34D /* ESTabBarItem.swift in Sources */,
+				3F432D2A1F3BFB630075C34D /* AppDelegate.swift in Sources */,
+				3F432D701F3C13050075C34D /* ESTabBarItemContentView.swift in Sources */,
+				3F432D7C1F3C130A0075C34D /* ExampleBasicContentView.swift in Sources */,
+				3F432D7B1F3C130A0075C34D /* ExampleBackgroundContentView.swift in Sources */,
+				3F432D821F3C13450075C34D /* ExampleNavigationController.swift in Sources */,
+				3F432D7E1F3C130A0075C34D /* ExampleHighlightableContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F432D361F3BFB630075C34D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F432D3F1F3BFB630075C34D /* DMSwitTabbarControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F432D411F3BFB630075C34D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F432D4A1F3BFB630075C34D /* DMSwitTabbarControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F432D3C1F3BFB630075C34D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F432D251F3BFB630075C34D /* DMSwitTabbarController */;
+			targetProxy = 3F432D3B1F3BFB630075C34D /* PBXContainerItemProxy */;
+		};
+		3F432D471F3BFB630075C34D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F432D251F3BFB630075C34D /* DMSwitTabbarController */;
+			targetProxy = 3F432D461F3BFB630075C34D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F432D2D1F3BFB630075C34D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F432D2E1F3BFB630075C34D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F432D321F3BFB630075C34D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F432D331F3BFB630075C34D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F432D4C1F3BFB630075C34D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F432D4D1F3BFB630075C34D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F432D4F1F3BFB630075C34D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D24A1E1BAAC87AB266A18104 /* Pods-DMSwitTabbarController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DMSwitTabbarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amon.DMSwitTabbarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3F432D501F3BFB630075C34D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A416FA655F874358990F2E /* Pods-DMSwitTabbarController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DMSwitTabbarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amon.DMSwitTabbarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3F432D521F3BFB630075C34D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DMSwitTabbarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amon.DMSwitTabbarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMSwitTabbarController.app/DMSwitTabbarController";
+			};
+			name = Debug;
+		};
+		3F432D531F3BFB630075C34D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DMSwitTabbarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amon.DMSwitTabbarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMSwitTabbarController.app/DMSwitTabbarController";
+			};
+			name = Release;
+		};
+		3F432D551F3BFB630075C34D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DMSwitTabbarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amon.DMSwitTabbarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DMSwitTabbarController;
+			};
+			name = Debug;
+		};
+		3F432D561F3BFB630075C34D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DMSwitTabbarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amon.DMSwitTabbarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DMSwitTabbarController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F432D211F3BFB630075C34D /* Build configuration list for PBXProject "DMSwitTabbarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F432D4C1F3BFB630075C34D /* Debug */,
+				3F432D4D1F3BFB630075C34D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F432D4E1F3BFB630075C34D /* Build configuration list for PBXNativeTarget "DMSwitTabbarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F432D4F1F3BFB630075C34D /* Debug */,
+				3F432D501F3BFB630075C34D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F432D511F3BFB630075C34D /* Build configuration list for PBXNativeTarget "DMSwitTabbarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F432D521F3BFB630075C34D /* Debug */,
+				3F432D531F3BFB630075C34D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F432D541F3BFB630075C34D /* Build configuration list for PBXNativeTarget "DMSwitTabbarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F432D551F3BFB630075C34D /* Debug */,
+				3F432D561F3BFB630075C34D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F432D1E1F3BFB630075C34D /* Project object */;
+}
